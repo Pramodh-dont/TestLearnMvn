@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-19T18:44:41 IST" name="Surefire suite" finished-at="2025-04-19T18:45:03 IST" duration-ms="21779">
+    <groups>
+    </groups>
+    <test started-at="2025-04-19T18:44:41 IST" name="Surefire test" finished-at="2025-04-19T18:45:03 IST" duration-ms="21779">
+      <class name="Testlearn.Testdatafrmexceldata">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:Testlearn.Testdatafrmexceldata@703580bf]" started-at="2025-04-19T18:44:42 IST" name="login" data-provider="getdata" finished-at="2025-04-19T18:44:50 IST" duration-ms="7905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:Testlearn.Testdatafrmexceldata@703580bf]" started-at="2025-04-19T18:44:50 IST" name="login" data-provider="getdata" finished-at="2025-04-19T18:44:56 IST" duration-ms="5972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:Testlearn.Testdatafrmexceldata@703580bf]" started-at="2025-04-19T18:44:56 IST" name="login" data-provider="getdata" finished-at="2025-04-19T18:45:03 IST" duration-ms="6748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[spin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[spin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Testlearn.Testdatafrmexceldata -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
