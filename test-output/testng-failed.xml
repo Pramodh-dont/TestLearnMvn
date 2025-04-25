@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testlearn.Brokenlinkstestclass">
+      <class name="Testlearn.Fullpagescreenshot">
         <methods>
-          <include name="links"/>
+          <include name="cap_full_screen"/>
         </methods>
-      </class> <!-- Testlearn.Brokenlinkstestclass -->
+      </class> <!-- Testlearn.Fullpagescreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
