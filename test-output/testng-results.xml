@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-25T21:49:12 IST" name="Default suite" finished-at="2025-04-25T21:49:24 IST" duration-ms="12639">
+  <suite started-at="2025-05-18T15:42:26 IST" name="Default suite" finished-at="2025-05-18T15:42:38 IST" duration-ms="11541">
     <groups>
     </groups>
-    <test started-at="2025-04-25T21:49:12 IST" name="Default test" finished-at="2025-04-25T21:49:24 IST" duration-ms="12639">
-      <class name="Testlearn.Fullpagescreenshot">
-        <test-method signature="cap_full_screen()[pri:0, instance:Testlearn.Fullpagescreenshot@4d1c00d0]" started-at="2025-04-25T21:49:12 IST" name="cap_full_screen" finished-at="2025-04-25T21:49:24 IST" duration-ms="12573" status="PASS">
+    <test started-at="2025-05-18T15:42:26 IST" name="Default test" finished-at="2025-05-18T15:42:38 IST" duration-ms="11541">
+      <class name="Testlearn.FileUploadTestLearn">
+        <test-method is-config="true" signature="brwoserinvoke()[pri:0, instance:Testlearn.FileUploadTestLearn@7c1e2a9e]" started-at="2025-05-18T15:42:26 IST" name="brwoserinvoke" finished-at="2025-05-18T15:42:32 IST" duration-ms="5533" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cap_full_screen -->
-      </class> <!-- Testlearn.Fullpagescreenshot -->
+        </test-method> <!-- brwoserinvoke -->
+        <test-method signature="UpploadFile()[pri:0, instance:Testlearn.FileUploadTestLearn@7c1e2a9e]" started-at="2025-05-18T15:42:32 IST" name="UpploadFile" finished-at="2025-05-18T15:42:37 IST" duration-ms="5591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpploadFile -->
+        <test-method is-config="true" signature="brwoserquit()[pri:0, instance:Testlearn.FileUploadTestLearn@7c1e2a9e]" started-at="2025-05-18T15:42:37 IST" name="brwoserquit" finished-at="2025-05-18T15:42:38 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brwoserquit -->
+      </class> <!-- Testlearn.FileUploadTestLearn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

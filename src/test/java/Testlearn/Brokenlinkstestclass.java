@@ -20,15 +20,8 @@ public class Brokenlinkstestclass {
 	public void links() throws IOException {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-//		driver.get("https://www.hyrtutorials.com/");
-//		WebElement selen = driver.findElement(By.xpath("//a[text()='Selenium Practice']"));
-//		Actions action = new Actions(driver);
-//		action.moveToElement(selen).build().perform();
-//		WebElement brokenL = driver.findElement(By.xpath("//a[text()='Broken Links']"));
-//		action.moveToElement(brokenL).build().perform();
-//		driver.findElement(By.xpath("//a[text()='Link1']")).click();
 		List<WebElement> AllLink = driver.findElements(By.tagName("a"));
-		int totallink = AllLink.size();
+//		int totallink = AllLink.size();
 		for (WebElement alllinks : AllLink) {
 			String linkurl = alllinks.getAttribute("href");
 			System.out.println(linkurl);
