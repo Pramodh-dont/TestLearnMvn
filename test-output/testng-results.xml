@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-18T15:42:26 IST" name="Default suite" finished-at="2025-05-18T15:42:38 IST" duration-ms="11541">
+  <suite started-at="2025-05-18T15:56:10 IST" name="Suite" finished-at="2025-05-18T15:56:24 IST" duration-ms="14325">
     <groups>
     </groups>
-    <test started-at="2025-05-18T15:42:26 IST" name="Default test" finished-at="2025-05-18T15:42:38 IST" duration-ms="11541">
+    <test started-at="2025-05-18T15:56:10 IST" name="Test" finished-at="2025-05-18T15:56:24 IST" duration-ms="14325">
       <class name="Testlearn.FileUploadTestLearn">
-        <test-method is-config="true" signature="brwoserinvoke()[pri:0, instance:Testlearn.FileUploadTestLearn@7c1e2a9e]" started-at="2025-05-18T15:42:26 IST" name="brwoserinvoke" finished-at="2025-05-18T15:42:32 IST" duration-ms="5533" status="PASS">
+        <test-method is-config="true" signature="brwoserinvoke()[pri:0, instance:Testlearn.FileUploadTestLearn@76ed1b7c]" started-at="2025-05-18T15:56:10 IST" name="brwoserinvoke" finished-at="2025-05-18T15:56:18 IST" duration-ms="8162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- brwoserinvoke -->
-        <test-method signature="UpploadFile()[pri:0, instance:Testlearn.FileUploadTestLearn@7c1e2a9e]" started-at="2025-05-18T15:42:32 IST" name="UpploadFile" finished-at="2025-05-18T15:42:37 IST" duration-ms="5591" status="PASS">
+        <test-method signature="UpploadFile()[pri:0, instance:Testlearn.FileUploadTestLearn@76ed1b7c]" started-at="2025-05-18T15:56:18 IST" name="UpploadFile" finished-at="2025-05-18T15:56:24 IST" duration-ms="5746" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpploadFile -->
-        <test-method is-config="true" signature="brwoserquit()[pri:0, instance:Testlearn.FileUploadTestLearn@7c1e2a9e]" started-at="2025-05-18T15:42:37 IST" name="brwoserquit" finished-at="2025-05-18T15:42:38 IST" duration-ms="353" status="PASS">
+        <test-method is-config="true" signature="brwoserquit()[pri:0, instance:Testlearn.FileUploadTestLearn@76ed1b7c]" started-at="2025-05-18T15:56:24 IST" name="brwoserquit" finished-at="2025-05-18T15:56:24 IST" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- brwoserquit -->
       </class> <!-- Testlearn.FileUploadTestLearn -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
