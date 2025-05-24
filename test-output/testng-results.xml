@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-18T15:56:10 IST" name="Suite" finished-at="2025-05-18T15:56:24 IST" duration-ms="14325">
+  <suite started-at="2025-05-24T22:30:50 IST" name="Default suite" finished-at="2025-05-24T22:30:53 IST" duration-ms="3231">
     <groups>
     </groups>
-    <test started-at="2025-05-18T15:56:10 IST" name="Test" finished-at="2025-05-18T15:56:24 IST" duration-ms="14325">
-      <class name="Testlearn.FileUploadTestLearn">
-        <test-method is-config="true" signature="brwoserinvoke()[pri:0, instance:Testlearn.FileUploadTestLearn@76ed1b7c]" started-at="2025-05-18T15:56:10 IST" name="brwoserinvoke" finished-at="2025-05-18T15:56:18 IST" duration-ms="8162" status="PASS">
+    <test started-at="2025-05-24T22:30:50 IST" name="Default test" finished-at="2025-05-24T22:30:53 IST" duration-ms="3231">
+      <class name="APITestingRestAssured.SampleRunAPI">
+        <test-method signature="testHeadMethod()[pri:4, instance:APITestingRestAssured.SampleRunAPI@3af9c5b7]" started-at="2025-05-24T22:30:50 IST" name="testHeadMethod" finished-at="2025-05-24T22:30:53 IST" duration-ms="3156" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- brwoserinvoke -->
-        <test-method signature="UpploadFile()[pri:0, instance:Testlearn.FileUploadTestLearn@76ed1b7c]" started-at="2025-05-18T15:56:18 IST" name="UpploadFile" finished-at="2025-05-18T15:56:24 IST" duration-ms="5746" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UpploadFile -->
-        <test-method is-config="true" signature="brwoserquit()[pri:0, instance:Testlearn.FileUploadTestLearn@76ed1b7c]" started-at="2025-05-18T15:56:24 IST" name="brwoserquit" finished-at="2025-05-18T15:56:24 IST" duration-ms="288" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- brwoserquit -->
-      </class> <!-- Testlearn.FileUploadTestLearn -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testHeadMethod -->
+      </class> <!-- APITestingRestAssured.SampleRunAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

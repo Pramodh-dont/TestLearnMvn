@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Tests(failed)">
     <classes>
-      <class name="Testlearn.Pagefactrylearn">
+      <class name="Testlearn.GroupDepMethodPractice">
         <methods>
-          <include name="login"/>
+          <include name="depGrpOnOthrGrp2"/>
+          <include name="depGrpMethod2"/>
         </methods>
-      </class> <!-- Testlearn.Pagefactrylearn -->
+      </class> <!-- Testlearn.GroupDepMethodPractice -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Tests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

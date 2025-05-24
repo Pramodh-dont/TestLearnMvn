@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testlearn.BaseTest">
+      <class name="APITestingRestAssured.SampleRunAPI">
         <methods>
-          <include name="UpploadFile"/>
-          <include name="brwoserquit"/>
-          <include name="brwoserinvoke"/>
+          <include name="testPostMethodWithBody"/>
         </methods>
-      </class> <!-- Testlearn.BaseTest -->
+      </class> <!-- APITestingRestAssured.SampleRunAPI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
